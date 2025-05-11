@@ -3,9 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <h1>Text comparator</h1>
+    <div class="content">
+      <div class="firstSection">
+        <div class="leftJoke">
+          <h3 class="title">Left Joke</h3>
+          <p class="joke">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            adipisci deserunt aliquid nam corporis totam ullam temporibus eaque,
+            quia quod quos dolore quae vitae numquam recusandae voluptatum,
+            libero excepturi? Aliquid!
+          </p>
+        </div>
+        <button id="leftJokebtn">Generate</button>
+      </div>
+      <div class="buttoons">
+        <div class="btnContainer">
+          <div class="match">
+            <button id="compare">Compare</button>
+            <p>0 match</p>
+          </div>
+          <div>
+            <button id="length">Compare</button>
+            <p>0 length difference</p>
+          </div>
+          <div>
+            <button id="deference">Compare</button>
+            <p>0 length difference</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="secondSection">
+          <div class="firstSection">
+            <div class="leftJoke">
+              <h3 class="title">Left Joke</h3>
+              <p class="rightjoke">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                adipisci deserunt aliquid nam corporis totam ullam temporibus
+                eaque, quia quod quos dolore quae vitae numquam recusandae
+                voluptatum, libero excepturi? Aliquid!
+              </p>
+            </div>
+            <button id="rightBtn">Generate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
